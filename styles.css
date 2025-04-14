@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    transition: background-color 0.3s;
+}
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
